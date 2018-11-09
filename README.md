@@ -9,3 +9,5 @@ After choosing which version the file will download to the current folder and th
 
 # Tricky Part
 This isn't straight forward with downloading from a direct link.  When you select the download link the page redirects to a download page so using DownloadFile doesn't work.  So a further check on the redirected page for the retry link is located and used to download the file directly.  
+  
+![Screenshot](Annotation.png)  
