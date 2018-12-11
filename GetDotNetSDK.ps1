@@ -19,7 +19,7 @@ if ($links[$it-1].href -match "(?<=dotnet-sdk-)(.*?)(?=-windows-x64-installer)")
     $veronly = $Matches[1];
 }
 #build the destination url based on version choice
-$dotnetcoresdk_url = "https://www.microsoft.com" + $links[$it-1].href;
+$dotnetcoresdk_url = "https://dotnet.microsoft.com" + $links[$it-1].href;
 $dotnetcoresdk_exe = "$PSScriptRoot\dotnet-sdk-$veronly-sdk-win-x64.exe";
 Write-Host "Downloading ($dotnetcoresdk_url) ...";
 
