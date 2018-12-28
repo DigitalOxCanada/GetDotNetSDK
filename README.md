@@ -1,5 +1,7 @@
 # GetDotNetSDK
-Powershell script to quickly get a dotnet sdk installer.
+Powershell script to quickly get a dotnet sdk installer.  
+
+** This script works in Powershell Core only **
 
 # How it works
 From powershell just run the script.  
